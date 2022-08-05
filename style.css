@@ -20,10 +20,6 @@ nav ul{
     background-color: black;
     color: white;
 }
-nav ul:active{
-    color: blue;
-}
-
 nav ul li{
     padding: 0 12px;
 }
@@ -91,13 +87,19 @@ nav ul li{
     height: 50px;
     display: flex;
     background-color: white;
-    
     color: black;
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
 }
+.songItem:hover{
+background-color: blue;
+}
+.songItem:active{
+    background-color:green;
+}
+
 
 .songItem img{
     width: 43px;
