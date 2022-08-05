@@ -20,6 +20,9 @@ nav ul{
     background-color: black;
     color: white;
 }
+nav ul:active{
+    color: blue;
+}
 
 nav ul li{
     padding: 0 12px;
